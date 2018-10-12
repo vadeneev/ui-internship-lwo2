@@ -1,0 +1,18 @@
+{
+  "name": "interns-projects",
+  "version": "1.0.0",
+  "description": "Goal of the project is to provide the platform to write algorithms, tests and get markup knowledge",
+  "scripts": {
+    "test": "jest",
+    "tdd": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.0.2",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^21.1.0",
+    "regenerator-runtime": "^0.11.0"
+  }
+}
