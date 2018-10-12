@@ -2,11 +2,12 @@
 IT-32899
 
 
-### Work with Sass guide
+### Project installation
 
 To install dependencies run:
  
- 	npm i
- 	
+  npm install
  
- 
+### Basic commands
+
+  npm run test - to execute unit tests
