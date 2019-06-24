@@ -1,8 +1,12 @@
 // import { Person } from './make-a-person';
 
-// const bob = new Person('Bob Ross');
-
 xdescribe('Make a person', () => {
+    let bob;
+
+    beforeEach(() => {
+        bob = new Person('Bob Ross');
+    });
+
     test('bob instanceof Person', () => {
         expect(bob instanceof Person).toBe(true);
     });

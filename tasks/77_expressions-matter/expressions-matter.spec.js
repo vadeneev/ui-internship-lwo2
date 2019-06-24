@@ -34,24 +34,24 @@ xdescribe('Expressions matter', () => {
         expect(expressionMatter(3, 5, 7)).toBe(105);
     });
 
-    test('expressionMatter(5, 6, 1) should return 36', () => {
-        expect(expressionMatter(5, 6, 1)).toBe(36);
+    test('expressionMatter(5, 6, 1) should return 35', () => {
+        expect(expressionMatter(5, 6, 1)).toBe(35);
     });
 
-    test('expressionMatter(1, 6, 1) should return 12', () => {
-        expect(expressionMatter(1, 6, 1)).toBe(12);
+    test('expressionMatter(1, 6, 1) should return 8', () => {
+        expect(expressionMatter(1, 6, 1)).toBe(8);
     });
 
-    test('expressionMatter(2, 6, 1) should return 18', () => {
-        expect(expressionMatter(2, 6, 1)).toBe(18);
+    test('expressionMatter(2, 6, 1) should return 14', () => {
+        expect(expressionMatter(2, 6, 1)).toBe(14);
     });
 
-    test('expressionMatter(6, 7, 1) should return 49', () => {
-        expect(expressionMatter(6, 7, 1)).toBe(49);
+    test('expressionMatter(6, 7, 1) should return 48', () => {
+        expect(expressionMatter(6, 7, 1)).toBe(48);
     });
 
-    test('expressionMatter(1, 8, 3) should return 32', () => {
-        expect(expressionMatter(1, 8, 3)).toBe(32);
+    test('expressionMatter(1, 8, 3) should return 27', () => {
+        expect(expressionMatter(1, 8, 3)).toBe(27);
     });
 
     test('expressionMatter(9, 7, 2) should return 126', () => {
@@ -66,7 +66,7 @@ xdescribe('Expressions matter', () => {
         expect(expressionMatter(10, 5, 6)).toBe(300);
     });
 
-    test('expressionMatter(1, 10, 1) should return 20', () => {
-        expect(expressionMatter(1, 10, 1)).toBe(20);
+    test('expressionMatter(1, 10, 1) should return 12', () => {
+        expect(expressionMatter(1, 10, 1)).toBe(12);
     });
 });
