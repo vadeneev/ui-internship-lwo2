@@ -9,8 +9,8 @@ xdescribe('vowel-count', () => {
         expect(getVowelCount("pear tree")).toBe(4);
     });
 
-    test(`getVowelCount("A kak ushakov lil v kashu kakao") should return 11`, () => {
-        expect(getVowelCount("A kak ushakov lil v kashu kakao?")).toBe(11);
+    test(`getVowelCount("o a kak ushakov lil v kashu kakao") should return 12`, () => {
+        expect(getVowelCount("o a kak ushakov lil v kashu kakao?")).toBe(12);
     });
 
     test(`getVowelCount("my pyx") should return 0`, () => {

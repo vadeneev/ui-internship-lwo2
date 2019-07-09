@@ -28,4 +28,7 @@ xdescribe('find-friend', () => {
     test(`findFriend(['blue', 'blue','blue','blue','blue','blue','blue']) should return 0`, () => {
         expect(findFriend(['blue', 'blue','blue','blue','blue','blue','blue'])).toBe(0);
     });
+    test(`findFriend(['blue','red','blue','red','red','blue','red']) should return 1`, () => {
+        expect(findFriend(['blue','red','blue','red','red','blue','red'])).toBe(1);
+    });
 });
