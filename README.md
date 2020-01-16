@@ -13,9 +13,7 @@ To install dependencies run:
 
 ### How to update your fork from upstream
 
-First in your forked repo add this repositiry as an upstream (upstream is just an alias):
-
-```git remote add upstream https://github.com/griddynamics/ui-internship-lwo2```
+First in your forked repo add this repositiry
 
 Then on your master branch run:
 
